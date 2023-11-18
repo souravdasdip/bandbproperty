@@ -1,8 +1,8 @@
-import React from 'react';
-import { usePropertyFormat } from '@/features/common/Hooks/usePropertyFormat';
-import { Badge, Box, Flex, HStack, Text } from '@chakra-ui/react';
-import { TbBed, TbBath, TbRuler } from 'react-icons/tb';
-import Link from 'next/link';
+"use client";
+import { usePropertyFormat } from "@/features/common/Hooks/usePropertyFormat";
+import { Badge, Box, Flex, HStack, Text } from "@chakra-ui/react";
+import Link from "next/link";
+import { TbBath, TbBed, TbRuler } from "react-icons/tb";
 
 const PropertyCard = (property: Object) => {
   const {
