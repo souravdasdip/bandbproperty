@@ -1,16 +1,18 @@
 "use client";
 import { Box, Button, Flex, Input } from "@chakra-ui/react";
-import { ChangeEvent, useState } from "react";
+import { useRouter } from "next/navigation";
+import { ChangeEvent, useEffect, useState } from "react";
 import { DateRangePicker } from "react-date-range";
 import "react-date-range/dist/styles.css"; // main style file
 import "react-date-range/dist/theme/default.css"; // theme css file
 
-const Search = () => {
-  const [startDate, setStartDate] = useState(new Date());
-  const [endDate, setEndDate] = useState(new Date());
-  const [noOfGuests, setNoOfGuests] = useState<number>();
+const Search = (props: any) => {
+  const [startDate, setStartDate] = useState(props.startDate || new Date());
+  const [endDate, setEndDate] = useState(props.endDate || new Date());
+  const [noOfGuests, setNoOfGuests] = useState<number>(parseInt(props.guests));
   const [date, setDate] = useState("");
   const [toggle, settoggle] = useState(false);
+  const router = useRouter();
 
   const InitSelectionRange = {
     startDate,
@@ -18,12 +20,28 @@ const Search = () => {
     key: "selection",
   };
 
+  useEffect(() => {
+    startDate &&
+      endDate &&
+      setDate(
+        `Check in: ${new Date(
+          startDate
+        ).toDateString()} - Check out: ${new Date(endDate).toDateString()}`
+      );
+  }, [startDate, endDate]);
+
   function handleRangeSelect(ranges: any) {
     setStartDate(ranges.selection.startDate);
     setEndDate(ranges.selection.endDate);
     console.log(ranges);
     setDate(
       `${ranges.selection.startDate.toDateString()} - ${ranges.selection.endDate.toDateString()}`
+    );
+  }
+
+  function handleSearch() {
+    router.push(
+      `/properties?startDate=${startDate}&endDate=${endDate}&guests=${noOfGuests}`
     );
   }
 
@@ -94,7 +112,7 @@ const Search = () => {
           h={"55px"}
           colorScheme="blue"
           maxW={100}
-          onClick={() => {}}
+          onClick={handleSearch}
         >
           Search
         </Button>
