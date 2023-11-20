@@ -1,4 +1,3 @@
-import HeroForm from "@/features/Home/components/HeroForm";
 import { Box, Fade, Text } from "@chakra-ui/react";
 
 const HeroBanner = () => {
@@ -6,12 +5,13 @@ const HeroBanner = () => {
     <Fade in>
       <Box
         position="relative"
-        minHeight={{ base: "110vh", sm: "60vh" }}
+        minHeight={{ base: "110vh", sm: "90vh" }}
         backgroundImage={`url('./hero/heroBg.jpeg')`}
         backgroundPosition="center"
         backgroundSize="cover"
         backgroundAttachment="fixed"
         overflow="hidden"
+        zIndex={-999}
       >
         <Box
           position="absolute"
@@ -49,12 +49,12 @@ const HeroBanner = () => {
               profit and so much more.
             </Text>
           </Box>
-          <Box
+          {/* <Box
             width={{ base: "100%", sm: "auto" }}
             marginTop={{ base: "2rem", sm: "0" }}
           >
             <HeroForm />
-          </Box>
+          </Box> */}
         </Box>
       </Box>
     </Fade>
