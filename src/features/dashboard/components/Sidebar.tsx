@@ -2,22 +2,19 @@
 
 import { Box, CloseButton, Flex, Text } from "@chakra-ui/react";
 
-import {
-  FiCompass,
-  FiHome,
-  FiSettings,
-  FiStar,
-  FiTrendingUp,
-} from "react-icons/fi";
+import { FiFolderPlus, FiHome, FiSettings, FiStar } from "react-icons/fi";
 
 import NavLink from "./NavLink";
 
 const LinkItems = [
-  { label: "Home", icon: FiHome, href: "/" },
-  { label: "Trending", icon: FiTrendingUp, href: "/" },
-  { label: "Explore", icon: FiCompass, href: "/" },
-  { label: "Favourites", icon: FiStar, href: "/" },
-  { label: "Settings", icon: FiSettings, href: "/" },
+  { label: "Home", icon: FiHome, href: "/dashboard" },
+  {
+    label: "Add Property",
+    icon: FiFolderPlus,
+    href: "/dashboard/manageproperty",
+  },
+  { label: "About", icon: FiStar, href: "/dashboard/about" },
+  { label: "Settings", icon: FiSettings, href: "/dashboard/settings" },
 ];
 
 export default function Sidebar({

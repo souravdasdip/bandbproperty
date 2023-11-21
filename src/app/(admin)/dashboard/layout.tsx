@@ -3,7 +3,11 @@ import Header from "@/features/dashboard/components/Header";
 import Sidebar from "@/features/dashboard/components/Sidebar";
 import { Box, Drawer, DrawerContent, useDisclosure } from "@chakra-ui/react";
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function DasboardLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <Box minH="100vh" bg="gray.100">

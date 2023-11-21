@@ -15,7 +15,7 @@ export default function NavLink({ link, ...rest }: { link: any }) {
           role="group"
           cursor="pointer"
           _hover={{
-            bg: "cyan.400",
+            bg: "blue.400",
             color: "white",
           }}
           {...rest}

@@ -1,8 +1,8 @@
 import PropertyCard from "@/features/common/modules/PropertyCard";
+import properties from "@/features/data/properties.json";
 import Search from "@/features/Home/components/Search";
 import DefaultLayout from "@/features/Layout/DefaultLayout";
 import { Box, SimpleGrid } from "@chakra-ui/react";
-import properties from "../../features/data/properties.json";
 
 const Properties = ({
   searchParams,
