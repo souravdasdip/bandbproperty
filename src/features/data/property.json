@@ -61,43 +61,35 @@
   "amenities": [
     {
       "text": "Furnished",
-      "value": "True",
-      "format": "checkbox"
+      "value": true
     },
     {
       "text": "Centrally Air-Conditioned",
-      "value": "True",
-      "format": "checkbox"
+      "value": true
     },
     {
       "text": "Balcony or Terrace",
-      "value": "True",
-      "format": "checkbox"
+      "value": true
     },
     {
       "text": "Gym or Health Club",
-      "value": "True",
-      "format": "checkbox"
+      "value": true
     },
     {
       "text": "Swimming Pool",
-      "value": "True",
-      "format": "checkbox"
+      "value": true
     },
     {
       "text": "Steam Room",
-      "value": "True",
-      "format": "checkbox"
+      "value": true
     },
     {
       "text": "Maintenance Staff",
-      "value": "True",
-      "format": "checkbox"
+      "value": true
     },
     {
       "text": "Security Staff",
-      "value": "True",
-      "format": "checkbox"
+      "value": true
     }
   ],
   "phoneNumber": {

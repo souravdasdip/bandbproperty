@@ -1,7 +1,7 @@
 "use client";
 import DProperty from "@/features/dashboard/components/DProperty";
 import properties from "@/features/data/properties.json";
-import { SimpleGrid } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import { useSearchParams } from "next/navigation";
 
 const ManageProperties = () => {
@@ -21,11 +21,11 @@ const ManageProperties = () => {
   }
 
   return (
-    <SimpleGrid columns={{ base: 1, sm: 4 }} gap={{ base: "0", sm: "1rem" }}>
+    <Flex flexWrap={"wrap"} gap={"1rem"}>
       {temp_properties.map((property: Object, index: number) => (
         <DProperty key={index} {...property} />
       ))}
-    </SimpleGrid>
+    </Flex>
   );
 };
 
