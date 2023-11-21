@@ -17,10 +17,15 @@ const Properties = ({
   let search__room = parseInt(room) as number;
   let search__bath = parseInt(bath) as number;
 
-  const temp_properties = properties["hits"].filter(
-    (property) =>
-      property.rooms <= search__room && property.baths <= search__bath
-  );
+  let temp_properties = properties["hits"];
+  if (search__room >= 0 || search__bath >= 0) {
+    temp_properties = properties["hits"]
+      .filter(
+        (property) =>
+          property.rooms <= search__room && property.baths <= search__bath
+      )
+      .sort((a, b) => b.rooms - a.rooms);
+  }
 
   return (
     <Box backgroundColor="#f7f8f9" padding="3rem">
