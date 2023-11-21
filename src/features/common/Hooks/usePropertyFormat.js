@@ -18,9 +18,7 @@ export const usePropertyFormat = (property) => {
   const photos = property.photos?.map((photo) => photo.url);
   const description = property.description;
 
-  const amenities = property.amenities?.flatMap(({ amenities }) =>
-    amenities?.map((item) => item.text)
-  );
+  const amenities = property.amenities?.flatMap((item) => item.text);
 
 
   return {
