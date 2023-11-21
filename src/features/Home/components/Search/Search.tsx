@@ -9,7 +9,8 @@ import "react-date-range/dist/theme/default.css"; // theme css file
 const Search = (props: any) => {
   const [startDate, setStartDate] = useState(props.startDate || new Date());
   const [endDate, setEndDate] = useState(props.endDate || new Date());
-  const [noOfGuests, setNoOfGuests] = useState<number>(parseInt(props.guests));
+  const [noOfRoom, setnoOfRoom] = useState<number>(parseInt(props.room));
+  const [noOfBath, setnoOfBath] = useState<number>(parseInt(props.bath));
   const [date, setDate] = useState("");
   const [toggle, settoggle] = useState(false);
   const router = useRouter();
@@ -41,7 +42,7 @@ const Search = (props: any) => {
 
   function handleSearch() {
     router.push(
-      `/properties?startDate=${startDate}&endDate=${endDate}&guests=${noOfGuests}`
+      `/properties?startDate=${startDate}&endDate=${endDate}&room=${noOfRoom}&bath=${noOfBath}`
     );
   }
 
@@ -98,13 +99,24 @@ const Search = (props: any) => {
         <Input
           flex={0.2}
           h={"55px"}
-          value={noOfGuests}
+          value={noOfRoom}
           min={1}
           onChange={(e: ChangeEvent<HTMLInputElement>) =>
-            setNoOfGuests(parseInt(e.target.value))
+            setnoOfRoom(parseInt(e.target.value))
           }
           type={"number"}
-          placeholder="Number of guest..."
+          placeholder="Number of Room..."
+        />
+        <Input
+          flex={0.2}
+          h={"55px"}
+          value={noOfBath}
+          min={1}
+          onChange={(e: ChangeEvent<HTMLInputElement>) =>
+            setnoOfBath(parseInt(e.target.value))
+          }
+          type={"number"}
+          placeholder="Number of Bath..."
         />
 
         <Button
