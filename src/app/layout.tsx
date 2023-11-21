@@ -1,5 +1,3 @@
-import Footer from "@/features/common/modules/Footer";
-import Navigation from "@/features/common/modules/Navigation";
 import { ChakraProvider } from "@chakra-ui/react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -22,9 +20,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ChakraProvider>
-          <Navigation />
+          {/* <Navigation /> */}
           {children}
-          <Footer />
+          {/* <Footer /> */}
         </ChakraProvider>
       </body>
     </html>
