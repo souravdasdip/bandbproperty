@@ -1,5 +1,4 @@
 "use client";
-import temp_property from "@/features/data/property.json";
 import {
   Box,
   Button,
@@ -13,8 +12,73 @@ import Image from "next/image";
 import { useState } from "react";
 
 const ManageProperty = () => {
-  const [property, setProperty] = useState(temp_property);
-  console.log(property);
+  const [property, setProperty] = useState({
+    id: "",
+    purpose: "for-rent",
+    price: 0,
+    title: "",
+    description: "",
+    externalID: "",
+    location: "",
+    category: "Apartment",
+    createdAt: new Date(),
+    updatedAt: new Date(),
+    rooms: 0,
+    baths: 0,
+    area: 0,
+    coverPhoto: {
+      url: "",
+    },
+    photoCount: 0,
+    photos: [
+      {
+        id: 0,
+        url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179042/3e120c40662d4f02b49c220db8d60f6d",
+      },
+    ],
+    amenities: [
+      {
+        text: "Furnished",
+        value: false,
+      },
+      {
+        text: "Centrally Air-Conditioned",
+        value: false,
+      },
+      {
+        text: "Balcony or Terrace",
+        value: false,
+      },
+      {
+        text: "Gym or Health Club",
+        value: false,
+      },
+      {
+        text: "Swimming Pool",
+        value: false,
+      },
+      {
+        text: "Steam Room",
+        value: false,
+      },
+      {
+        text: "Maintenance Staff",
+        value: false,
+      },
+      {
+        text: "Security Staff",
+        value: false,
+      },
+    ],
+    phoneNumber: {
+      mobile: "",
+      phone: "",
+      whatsapp: "",
+    },
+    contactName: "",
+    active: false,
+    hidePrice: false,
+  });
 
   const handleChange = (e: any) => {
     setProperty((prev) => {

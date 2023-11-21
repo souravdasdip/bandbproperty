@@ -31,14 +31,16 @@ const NavigationDesktop = () => {
                 icon={<item.icon />}
               />
             ))}
-            <Button
-              padding="1.5rem"
-              colorScheme="twitter"
-              fontSize="0.8rem"
-              fontWeight="medium"
-            >
-              CREATE LISTING
-            </Button>
+            <Link href={"/dashboard"}>
+              <Button
+                padding="1.5rem"
+                colorScheme="twitter"
+                fontSize="0.8rem"
+                fontWeight="medium"
+              >
+                CREATE LISTING
+              </Button>
+            </Link>
           </Flex>
         </Flex>
       </Box>
