@@ -110,6 +110,450 @@
       "contactName": "John Doe",
       "active": true,
       "hidePrice": false
+    },
+    {
+      "id": 3996354,
+      "purpose": "for-rent",
+      "price": 800.0,
+      "title": "1-Bedroom | Vacant | Canal View",
+      "description": "-1 Bedroom\n-1 Bathroom\n-Open Kitchen\n-Built-in Wardrobes\n-Laundry Room\n-Balcony Canal View\n\nluxe homes is please to present you this 1-Bedroom Apartment in Business Bay, Mayfair Tower. A 22-storey residential building developed by Deyaar. \n\nMain Roads nearby: Al Khail Road, Sheikh Zayed Road\nClosest Metro Station: Business Bay\nClosest Bust Stations: Fairview Residency 2\n\nAmenities:\n-High-speed Elevators, CCTV and Fire-alarms\n-Security, and Maintenance Services\n-Gym, Pool and Spa\n-Children's Play Area\n\nFor further details, please drop us a message on WhatsApp - or peruse the extraordinary selection of properties we maintain on the luxe home website. Our area specialist will be happy to answer any of your questions related to the property listed. \n\nGet in touch with us on:\nCall: [redacted phone number]\nEmail: [redacted email address]\nWeb: www. luxehomesdubai. com",
+      "externalID": "6679108",
+      "location": "UAE, Dubai, Business Bay, Mayfair Tower",
+      "category": "Apartment",
+      "createdAt": 1671710699.0,
+      "updatedAt": 1673581818.0,
+      "rooms": 1,
+      "baths": 1,
+      "area": 58.15730304,
+      "coverPhoto": {
+        "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179042/3e120c40662d4f02b49c220db8d60f6d"
+      },
+      "photoCount": 15,
+      "photos": [
+        {
+          "id": 319179042,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179042/3e120c40662d4f02b49c220db8d60f6d"
+        },
+        {
+          "id": 319179043,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179043/2119ad4d7cdc48b8a424107db96a5ebe"
+        },
+        {
+          "id": 319179044,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179044/35a73c818ffe424b9a80aaedbbacf8f1"
+        },
+        {
+          "id": 319179045,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179045/9badeb4d32ac4f63966d62e72579d351"
+        },
+        {
+          "id": 319179046,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179046/6a86347dc89245a6ae2bc925227f75fb"
+        },
+        {
+          "id": 319179047,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179047/f5217cd2d87d4633ae971b981c517999"
+        },
+        {
+          "id": 319179048,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179048/1cec8270337544d89a00c7044f917292"
+        },
+        {
+          "id": 319179049,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179049/12c0399ec2864cd2b9c9a4fca8794ba0"
+        },
+        {
+          "id": 327377461,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/327377461/d41ff994bd1a4ed0b21b25ad74d4a93f"
+        },
+        {
+          "id": 319179051,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179051/ede309abbb23407ea91a3d5e60587ae6"
+        }
+      ],
+      "amenities": [
+        {
+          "text": "Furnished",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Centrally Air-Conditioned",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Balcony or Terrace",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Gym or Health Club",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Swimming Pool",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Steam Room",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Maintenance Staff",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Security Staff",
+          "value": "True",
+          "format": "checkbox"
+        }
+      ],
+      "phoneNumber": {
+        "mobile": "+971585099030",
+        "phone": "+97145778078",
+        "whatsapp": "971545695868"
+      },
+      "contactName": "John Doe",
+      "active": true,
+      "hidePrice": false
+    },
+    {
+      "id": 3996354,
+      "purpose": "for-rent",
+      "price": 800.0,
+      "title": "1-Bedroom | Vacant | Canal View",
+      "description": "-1 Bedroom\n-1 Bathroom\n-Open Kitchen\n-Built-in Wardrobes\n-Laundry Room\n-Balcony Canal View\n\nluxe homes is please to present you this 1-Bedroom Apartment in Business Bay, Mayfair Tower. A 22-storey residential building developed by Deyaar. \n\nMain Roads nearby: Al Khail Road, Sheikh Zayed Road\nClosest Metro Station: Business Bay\nClosest Bust Stations: Fairview Residency 2\n\nAmenities:\n-High-speed Elevators, CCTV and Fire-alarms\n-Security, and Maintenance Services\n-Gym, Pool and Spa\n-Children's Play Area\n\nFor further details, please drop us a message on WhatsApp - or peruse the extraordinary selection of properties we maintain on the luxe home website. Our area specialist will be happy to answer any of your questions related to the property listed. \n\nGet in touch with us on:\nCall: [redacted phone number]\nEmail: [redacted email address]\nWeb: www. luxehomesdubai. com",
+      "externalID": "6679108",
+      "location": "UAE, Dubai, Business Bay, Mayfair Tower",
+      "category": "Apartment",
+      "createdAt": 1671710699.0,
+      "updatedAt": 1673581818.0,
+      "rooms": 1,
+      "baths": 1,
+      "area": 58.15730304,
+      "coverPhoto": {
+        "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179042/3e120c40662d4f02b49c220db8d60f6d"
+      },
+      "photoCount": 15,
+      "photos": [
+        {
+          "id": 319179042,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179042/3e120c40662d4f02b49c220db8d60f6d"
+        },
+        {
+          "id": 319179043,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179043/2119ad4d7cdc48b8a424107db96a5ebe"
+        },
+        {
+          "id": 319179044,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179044/35a73c818ffe424b9a80aaedbbacf8f1"
+        },
+        {
+          "id": 319179045,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179045/9badeb4d32ac4f63966d62e72579d351"
+        },
+        {
+          "id": 319179046,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179046/6a86347dc89245a6ae2bc925227f75fb"
+        },
+        {
+          "id": 319179047,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179047/f5217cd2d87d4633ae971b981c517999"
+        },
+        {
+          "id": 319179048,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179048/1cec8270337544d89a00c7044f917292"
+        },
+        {
+          "id": 319179049,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179049/12c0399ec2864cd2b9c9a4fca8794ba0"
+        },
+        {
+          "id": 327377461,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/327377461/d41ff994bd1a4ed0b21b25ad74d4a93f"
+        },
+        {
+          "id": 319179051,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179051/ede309abbb23407ea91a3d5e60587ae6"
+        }
+      ],
+      "amenities": [
+        {
+          "text": "Furnished",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Centrally Air-Conditioned",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Balcony or Terrace",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Gym or Health Club",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Swimming Pool",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Steam Room",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Maintenance Staff",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Security Staff",
+          "value": "True",
+          "format": "checkbox"
+        }
+      ],
+      "phoneNumber": {
+        "mobile": "+971585099030",
+        "phone": "+97145778078",
+        "whatsapp": "971545695868"
+      },
+      "contactName": "John Doe",
+      "active": true,
+      "hidePrice": false
+    },
+    {
+      "id": 3996354,
+      "purpose": "for-rent",
+      "price": 800.0,
+      "title": "1-Bedroom | Vacant | Canal View",
+      "description": "-1 Bedroom\n-1 Bathroom\n-Open Kitchen\n-Built-in Wardrobes\n-Laundry Room\n-Balcony Canal View\n\nluxe homes is please to present you this 1-Bedroom Apartment in Business Bay, Mayfair Tower. A 22-storey residential building developed by Deyaar. \n\nMain Roads nearby: Al Khail Road, Sheikh Zayed Road\nClosest Metro Station: Business Bay\nClosest Bust Stations: Fairview Residency 2\n\nAmenities:\n-High-speed Elevators, CCTV and Fire-alarms\n-Security, and Maintenance Services\n-Gym, Pool and Spa\n-Children's Play Area\n\nFor further details, please drop us a message on WhatsApp - or peruse the extraordinary selection of properties we maintain on the luxe home website. Our area specialist will be happy to answer any of your questions related to the property listed. \n\nGet in touch with us on:\nCall: [redacted phone number]\nEmail: [redacted email address]\nWeb: www. luxehomesdubai. com",
+      "externalID": "6679108",
+      "location": "UAE, Dubai, Business Bay, Mayfair Tower",
+      "category": "Apartment",
+      "createdAt": 1671710699.0,
+      "updatedAt": 1673581818.0,
+      "rooms": 1,
+      "baths": 1,
+      "area": 58.15730304,
+      "coverPhoto": {
+        "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179042/3e120c40662d4f02b49c220db8d60f6d"
+      },
+      "photoCount": 15,
+      "photos": [
+        {
+          "id": 319179042,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179042/3e120c40662d4f02b49c220db8d60f6d"
+        },
+        {
+          "id": 319179043,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179043/2119ad4d7cdc48b8a424107db96a5ebe"
+        },
+        {
+          "id": 319179044,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179044/35a73c818ffe424b9a80aaedbbacf8f1"
+        },
+        {
+          "id": 319179045,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179045/9badeb4d32ac4f63966d62e72579d351"
+        },
+        {
+          "id": 319179046,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179046/6a86347dc89245a6ae2bc925227f75fb"
+        },
+        {
+          "id": 319179047,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179047/f5217cd2d87d4633ae971b981c517999"
+        },
+        {
+          "id": 319179048,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179048/1cec8270337544d89a00c7044f917292"
+        },
+        {
+          "id": 319179049,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179049/12c0399ec2864cd2b9c9a4fca8794ba0"
+        },
+        {
+          "id": 327377461,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/327377461/d41ff994bd1a4ed0b21b25ad74d4a93f"
+        },
+        {
+          "id": 319179051,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179051/ede309abbb23407ea91a3d5e60587ae6"
+        }
+      ],
+      "amenities": [
+        {
+          "text": "Furnished",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Centrally Air-Conditioned",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Balcony or Terrace",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Gym or Health Club",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Swimming Pool",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Steam Room",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Maintenance Staff",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Security Staff",
+          "value": "True",
+          "format": "checkbox"
+        }
+      ],
+      "phoneNumber": {
+        "mobile": "+971585099030",
+        "phone": "+97145778078",
+        "whatsapp": "971545695868"
+      },
+      "contactName": "John Doe",
+      "active": true,
+      "hidePrice": false
+    },
+    {
+      "id": 3996354,
+      "purpose": "for-rent",
+      "price": 800.0,
+      "title": "1-Bedroom | Vacant | Canal View",
+      "description": "-1 Bedroom\n-1 Bathroom\n-Open Kitchen\n-Built-in Wardrobes\n-Laundry Room\n-Balcony Canal View\n\nluxe homes is please to present you this 1-Bedroom Apartment in Business Bay, Mayfair Tower. A 22-storey residential building developed by Deyaar. \n\nMain Roads nearby: Al Khail Road, Sheikh Zayed Road\nClosest Metro Station: Business Bay\nClosest Bust Stations: Fairview Residency 2\n\nAmenities:\n-High-speed Elevators, CCTV and Fire-alarms\n-Security, and Maintenance Services\n-Gym, Pool and Spa\n-Children's Play Area\n\nFor further details, please drop us a message on WhatsApp - or peruse the extraordinary selection of properties we maintain on the luxe home website. Our area specialist will be happy to answer any of your questions related to the property listed. \n\nGet in touch with us on:\nCall: [redacted phone number]\nEmail: [redacted email address]\nWeb: www. luxehomesdubai. com",
+      "externalID": "6679108",
+      "location": "UAE, Dubai, Business Bay, Mayfair Tower",
+      "category": "Apartment",
+      "createdAt": 1671710699.0,
+      "updatedAt": 1673581818.0,
+      "rooms": 1,
+      "baths": 1,
+      "area": 58.15730304,
+      "coverPhoto": {
+        "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179042/3e120c40662d4f02b49c220db8d60f6d"
+      },
+      "photoCount": 15,
+      "photos": [
+        {
+          "id": 319179042,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179042/3e120c40662d4f02b49c220db8d60f6d"
+        },
+        {
+          "id": 319179043,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179043/2119ad4d7cdc48b8a424107db96a5ebe"
+        },
+        {
+          "id": 319179044,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179044/35a73c818ffe424b9a80aaedbbacf8f1"
+        },
+        {
+          "id": 319179045,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179045/9badeb4d32ac4f63966d62e72579d351"
+        },
+        {
+          "id": 319179046,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179046/6a86347dc89245a6ae2bc925227f75fb"
+        },
+        {
+          "id": 319179047,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179047/f5217cd2d87d4633ae971b981c517999"
+        },
+        {
+          "id": 319179048,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179048/1cec8270337544d89a00c7044f917292"
+        },
+        {
+          "id": 319179049,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179049/12c0399ec2864cd2b9c9a4fca8794ba0"
+        },
+        {
+          "id": 327377461,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/327377461/d41ff994bd1a4ed0b21b25ad74d4a93f"
+        },
+        {
+          "id": 319179051,
+          "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179051/ede309abbb23407ea91a3d5e60587ae6"
+        }
+      ],
+      "amenities": [
+        {
+          "text": "Furnished",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Centrally Air-Conditioned",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Balcony or Terrace",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Gym or Health Club",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Swimming Pool",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Steam Room",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Maintenance Staff",
+          "value": "True",
+          "format": "checkbox"
+        },
+        {
+          "text": "Security Staff",
+          "value": "True",
+          "format": "checkbox"
+        }
+      ],
+      "phoneNumber": {
+        "mobile": "+971585099030",
+        "phone": "+97145778078",
+        "whatsapp": "971545695868"
+      },
+      "contactName": "John Doe",
+      "active": true,
+      "hidePrice": false
     }
   ],
   "totalHits": 86,
