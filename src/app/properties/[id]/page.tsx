@@ -30,8 +30,6 @@ const PropertyDetail = () => {
     externalID,
     photos,
     description,
-    coverVideo,
-    panorama,
     amenities,
   } = usePropertyFormat(property);
 
