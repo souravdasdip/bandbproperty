@@ -1,10 +1,10 @@
 import PropertyCard from "@/features/common/modules/PropertyCard";
-import properties from "@/features/data/properties.json";
 import Search from "@/features/Home/components/Search";
 import DefaultLayout from "@/features/Layout/DefaultLayout";
+import { prisma } from "@/lib/connect";
 import { Box, SimpleGrid } from "@chakra-ui/react";
 
-const Properties = ({
+const Properties = async ({
   searchParams,
 }: {
   searchParams: {
@@ -18,9 +18,9 @@ const Properties = ({
   let search__room = parseInt(room) as number;
   let search__bath = parseInt(bath) as number;
 
-  let temp_properties = properties["hits"];
+  let temp_properties = await prisma.property.findMany();
   if (search__room >= 0 || search__bath >= 0) {
-    temp_properties = properties["hits"]
+    temp_properties = temp_properties
       .filter(
         (property) =>
           property.rooms <= search__room && property.baths <= search__bath

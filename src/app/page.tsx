@@ -4,9 +4,9 @@ import MeetTheTeam from "@/features/Home/components/MeetTheTeam";
 import Partners from "@/features/Home/components/Partners";
 import Testimonials from "@/features/Home/components/Testimonials";
 import DefaultLayout from "@/features/Layout/DefaultLayout";
-import properties from "../features/data/properties.json";
+import { prisma } from "@/lib/connect";
 export default async function Home() {
-  const featuredProperties = properties["hits"];
+  const featuredProperties = await prisma.property.findMany();
 
   return (
     <DefaultLayout>

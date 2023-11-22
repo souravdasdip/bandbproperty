@@ -1,9 +1,9 @@
 "use client";
 import { Box, Button, Flex, SimpleGrid, Text } from "@chakra-ui/react";
 import Link from "next/link";
-import ManageProperties from "./manageproperties/page";
+import React from "react";
 
-export default function Dashboard() {
+export default function Dashboard({ children }: { children: React.ReactNode }) {
   return (
     <Box>
       <Flex justifyContent={"space-between"} mb={10}>
@@ -16,7 +16,7 @@ export default function Dashboard() {
         </Link>
       </Flex>
       <SimpleGrid minChildWidth="200px" spacing="2em" minH="full">
-        <ManageProperties />
+        {children}
       </SimpleGrid>
     </Box>
   );

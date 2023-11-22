@@ -1,7 +1,6 @@
 "use client";
 import { usePropertyFormat } from "@/features/common/Hooks/usePropertyFormat";
 import TextContentBox from "@/features/common/modules/TextContentBox";
-import temp_property from "@/features/data/property.json";
 import DefaultLayout from "@/features/Layout/DefaultLayout";
 import PropertyStats from "@/features/Property/PropertyStats";
 import PropertyThumbnailSlider from "@/features/Property/PropertyThumbnailSlider";
@@ -16,8 +15,8 @@ import {
 } from "@chakra-ui/react";
 import { TbMapPin } from "react-icons/tb";
 
-const PropertyDetail = () => {
-  const property = temp_property;
+const PropertyDetail = ({ property }: { property: any }) => {
+  // const property = temp_property;
   const {
     address,
     propertyType,

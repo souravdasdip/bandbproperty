@@ -7,10 +7,13 @@ import "react-date-range/dist/styles.css"; // main style file
 import "react-date-range/dist/theme/default.css"; // theme css file
 
 const Search = (props: any) => {
+  let temp_room = parseInt(props.room);
+  let temp_bath = parseInt(props.bath);
+
   const [startDate, setStartDate] = useState(props.startDate || new Date());
   const [endDate, setEndDate] = useState(props.endDate || new Date());
-  const [noOfRoom, setnoOfRoom] = useState<number>(parseInt(props.room));
-  const [noOfBath, setnoOfBath] = useState<number>(parseInt(props.bath));
+  const [noOfRoom, setnoOfRoom] = useState<number>(temp_room);
+  const [noOfBath, setnoOfBath] = useState<number>(temp_bath);
   const [date, setDate] = useState("");
   const [toggle, settoggle] = useState(false);
   const router = useRouter();

@@ -2,12 +2,19 @@
 
 import { Box, CloseButton, Flex, Text } from "@chakra-ui/react";
 
-import { FiFolderPlus, FiHome, FiSettings, FiStar } from "react-icons/fi";
+import {
+  FiFolderPlus,
+  FiHome,
+  FiList,
+  FiSettings,
+  FiStar,
+} from "react-icons/fi";
 
 import NavLink from "./NavLink";
 
 const LinkItems = [
   { label: "Home", icon: FiHome, href: "/dashboard" },
+  { label: "Properties", icon: FiList, href: "/dashboard/manageproperties" },
   {
     label: "Add Property",
     icon: FiFolderPlus,
